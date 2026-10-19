@@ -46,7 +46,7 @@ def story_async():
 
 
 def hello_world(request):
-    return HttpResponse("Hello World")
+    return HttpResponse("<html><body><h1>Sync request done</h1></body></html>")
 
 
 #sync
